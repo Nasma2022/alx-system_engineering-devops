@@ -1,2 +1,2 @@
 #!/bin/bash
-\n\ninput=$(cat)\nresult=$(echo "$input" | tr -d "cC")\necho "$result"' > 20-hiago.sh
+ls -1t | head -10
